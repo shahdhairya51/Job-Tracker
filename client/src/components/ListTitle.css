@@ -1,0 +1,23 @@
+.listHeading{
+  background-color: transparent;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.headingIcon{
+    padding:0;
+    position:relative; ;
+    align-items: center;
+    
+}
+input {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+ }

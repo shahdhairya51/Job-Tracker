@@ -1,0 +1,49 @@
+.listContainer {
+    height: 100%;
+    min-width:400px;
+    background-color: rgb(251, 251, 253);
+    background-size: 25px 25px;
+    /* box-shadow: 0 0 8px 0 rgba(0,0,0,0.2); */
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #d3d3d3;
+    border-left: 0;
+    display: flex;
+    flex-direction: column;
+    /* flex-flow: column wrap; */
+    padding: 30px 10px 0px 10px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+  }
+.addbutton{
+    width: 100%;
+}
+.listTitle {
+    margin: 0px 28px 30px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 40px;
+    justify-content: center;
+  }
+  .heading {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+  .headingIcon {
+    margin-top: 5px;
+  }
+  .titleContent {
+    display: flex;
+    flex-direction: column;
+  }
+  .jobCount {
+    display: flex;
+    justify-content: center;
+    color: #d3d3d3;
+  }
+  

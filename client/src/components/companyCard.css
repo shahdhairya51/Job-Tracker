@@ -1,0 +1,48 @@
+/* .companyCard:hover {
+    background-image: url(/public/images/trash-icon.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position:right 10px;
+    background-size:10%;
+    
+} */
+
+.trashButton{
+  padding: 0;
+  border: 0;
+  background-color: white;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  display:none;
+}
+.companyCard:hover .trashButton, .trashButton:hover {
+    display: inline-block;
+}
+.companyCard{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-bottom: 9px;
+    margin-top:9px
+}
+.fUyqyz {
+    background-color: rgba(26, 0, 82, 0.8);
+    z-index: 20;
+    position: fixed;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    inset: 0px;
+    overflow-y: scroll;
+}
+
+.dBLPiu {
+    z-index: 1;
+    max-width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
